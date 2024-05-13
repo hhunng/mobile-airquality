@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">airQualityProjectFinish</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="tagLine">Get accurate and up-to-date weather forecasts tailored for UITers</string>
+    <string name="find_new_nfriends_nearby">Find new\nFriends nearby</string>
+    <string name="air_quality_ndetector_application">Air Quality\nDetector Application</string>
+    <string name="an_air_quality_ndetector_application">An air quality\nDetector application</string>
+    <string name="or_sign_in_with">Or sign in with</string>
+    <string name="forgot_your_password">Forgot your password?</string>
+    <string name="username">Username</string>
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="back">Back</string>
+    <string name="admin">Admin</string>
+    <string name="list_name">Spinner Example</string>
+    <string name="weather_features">Weather Features</string>
+    <string name="asset_detail">Asset Detail</string>
+    <string name="default_weather">Default Weather</string>
+
+    <string-array name="features">
+        <item>Temperature</item>
+        <item>Rainfall</item>
+        <item>Humidity</item>
+        <item>Wind Speed</item>
+    </string-array>
+</resources>

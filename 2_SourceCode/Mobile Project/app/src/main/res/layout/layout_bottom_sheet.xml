@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_sheet_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/default_weather"
+        android:textColor="@color/piecePrimaryText"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/pieceColorDivider"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/buttonShare"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/pieceColorWhite"
+        android:text="@string/asset_detail"
+        android:background="@drawable/button_background"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingStart="22dp"
+            android:id="@+id/temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Temperature" />
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/rain"
+            android:paddingStart="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Rainfall" />
+        <TextView
+            android:paddingTop="5dp"
+            android:id="@+id/humid"
+            android:paddingStart="22dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Humidity" />
+        <TextView
+            android:paddingTop="5dp"
+            android:paddingStart="22dp"
+            android:layout_width="wrap_content"
+            android:id="@+id/wind"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingBottom="10dp"
+            android:text="Wind Speed" />
+</LinearLayout>
+
+
+</LinearLayout>

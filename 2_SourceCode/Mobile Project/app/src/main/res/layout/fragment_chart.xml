@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"/>
+    <Button
+        android:id="@+id/lastDateTime"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="390dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/background_for_sign_in_button"
+        android:text="TO" />
+
+    <Button
+        android:id="@+id/firstDateTime"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="440dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/background_for_sign_in_button"
+        android:text="From" />
+
+    <Button
+        android:id="@+id/buttonGraph"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="35dp"
+        android:background="@drawable/background_for_signup_button"
+        android:text="DISPLAY"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/round_back" />
+
+</FrameLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="7">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5">
+
+            <EditText
+                android:id="@+id/edit_user"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_above="@+id/edit_pass"
+                android:layout_centerInParent="true"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_person"
+                android:drawablePadding="10dp"
+                android:hint="@string/admin"></EditText>
+
+            <Button
+                android:id="@+id/btnback"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/background_for_signup_button"
+                android:text="Back"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <Button
+                android:id="@+id/btnSignin"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_above="@+id/btnback"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/background_for_sign_in_button"
+                android:layout_centerHorizontal="true"
+                android:text="SIGN  IN" />
+
+            <EditText
+                android:id="@+id/edit_pass"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_above="@id/btnSignin"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_input"
+                android:drawableStart="@drawable/ic_lock"
+                android:drawablePadding="10dp"
+                android:hint="@string/password"
+                android:inputType="textPassword" />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
